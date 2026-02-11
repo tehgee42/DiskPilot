@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.spec
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# DiskPilot
+*.db
+*.db-wal
+*.db-shm
+installer_output/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Docs/plans (internal only)
+docs/
