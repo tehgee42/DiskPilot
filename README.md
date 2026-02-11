@@ -30,7 +30,7 @@ Download `DiskPilot_Setup.exe` from [Releases](../../releases) and run it.
 ### From source
 
 ```bash
-git clone https://github.com/yourusername/DiskPilot.git
+git clone https://github.com/tehgee42/DiskPilot.git
 cd DiskPilot
 pip install customtkinter pillow
 python app.py
