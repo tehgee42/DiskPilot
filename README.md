@@ -17,9 +17,9 @@ A Windows disk cleanup and organization tool. Scans all drives, intelligently ca
 - **Recycle bin support** - Defaults to recycle bin so nothing is permanently lost
 - **Dark modern UI** - Built with CustomTkinter + ttk.Treeview for a responsive dark interface
 
-## Screenshots
+## Screenshot
 
-The main interface shows all flagged files with tier, reason, path, and size. Filter by tier, search, and bulk-select with one click.
+![DiskPilot](screenshot.png)
 
 ## Installation
 
