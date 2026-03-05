@@ -97,6 +97,12 @@ Files are protected at three layers:
 - Python 3.10+ (if running from source)
 - ~50 MB disk space for the database (varies by number of files)
 
+## Donate
+
+If you find DiskPilot useful, consider supporting development:
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/donate/?business=tehgee42businessc%40gmail.com&no_recurring=0&currency_code=USD)
+
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.

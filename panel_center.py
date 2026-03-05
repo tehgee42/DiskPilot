@@ -1,6 +1,7 @@
 """Center panel — the entire DiskPilot UI. Clean single-screen layout."""
 
 import threading
+import webbrowser
 import customtkinter as ctk
 
 from theme import COLORS, TIER_META
@@ -148,6 +149,13 @@ def build_center_panel(parent, app):
     sel_label = ctk.CTkLabel(bottom, text="Selected: 0 files (0 B)",
                               font=("Segoe UI", 13), text_color=COLORS["text_dim"])
     sel_label.pack(side="left", padx=16, pady=8)
+
+    ctk.CTkButton(
+        bottom, text="\u2615  Buy Ali a Coffee", width=180, height=34,
+        fg_color="#FFDD00", hover_color="#E5C700",
+        text_color="#000000", font=("Segoe UI", 13, "bold"), corner_radius=20,
+        command=lambda: webbrowser.open("https://www.paypal.com/donate/?business=tehgee42businessc%40gmail.com&no_recurring=0&currency_code=USD"),
+    ).pack(side="left", padx=(0, 8), pady=8)
 
     recycle_var = ctk.BooleanVar(value=True)
     ctk.CTkSwitch(
