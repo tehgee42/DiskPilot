@@ -95,7 +95,7 @@ Files are protected at three layers:
 
 - Windows 10/11
 - Python 3.10+ (if running from source)
-- ~50 MB disk space for the database (varies by number of files)
+- Database size scales with total files across all drives (e.g. ~50 MB for a small setup, ~2 GB for 9+ TB of storage)
 
 ## Donate
 
